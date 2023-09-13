@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.onIgnoredFiles": "warn"
+}

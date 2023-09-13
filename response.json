@@ -1,0 +1,752 @@
+{
+  "products": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Product/7694076510459",
+        "handle": "ulla-pot",
+        "title": "LULU Mini Pot",
+        "description": "",
+        "descriptionHtml": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n<p data-mce-fragment=\"1\" data-pm-slice=\"0 0 []\" class=\"\"> </p>",
+        "vendor": "Lucy Holdberg",
+        "productType": "",
+        "tags": [],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/AAWUweVLZNmFdeNd9JYLmCp22SjWaZebZBTZHl-KbZgxC6o8ZW9m08FiYFLzp8onvbY2uMy_l9jLg3yP92Wi5IEzj6QV83Vgz5VnC_g5e1vRCXURTR0mLCbpFssviWCtO4-nobvIQvXutTHSnJPkTNcjdSviYQYPQd4fGIZvuahYfhHKiqr0ibo.jpg?v=1652289269"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "Light Blue",
+              "sku": "LMP_LIGHTBLUE",
+              "id": "gid://shopify/ProductVariant/43008939819259",
+              "unitPrice": null,
+              "compareAtPrice": {
+                "amount": "35.0"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Light Blue"
+                }
+              ]
+            },
+            {
+              "title": "Cobalt",
+              "sku": "LMP_COBALT",
+              "id": "gid://shopify/ProductVariant/43008939852027",
+              "unitPrice": null,
+              "compareAtPrice": {
+                "amount": "35.0"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Cobalt"
+                }
+              ]
+            },
+            {
+              "title": "Orange",
+              "sku": "LMP_ORANGE",
+              "id": "gid://shopify/ProductVariant/43008939917563",
+              "unitPrice": null,
+              "compareAtPrice": {
+                "amount": "35.0"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Orange"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "35.0"
+          },
+          "maxVariantPrice": {
+            "amount": "35.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9849678889211",
+            "name": "Color",
+            "values": ["Light Blue", "Cobalt", "Orange"]
+          }
+        ],
+        "createdAt": "2022-05-11T11:49:39Z"
+      },
+      {
+        "id": "gid://shopify/Product/7694501937403",
+        "handle": "lekki-propagator",
+        "title": "LEKKI Propagator",
+        "description": "",
+        "descriptionHtml": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n<p class=\"\" data-pm-slice=\"0 0 []\" data-mce-fragment=\"1\"><br></p>",
+        "vendor": "Timothy Diaz",
+        "productType": "",
+        "tags": [],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/AAWUweXMlB6zBVSSTSloZDwyr7oh1m9homWo3HcAMO4zPEVSMNU-G-ICMByqHIGGlfIFVV6NSGJF_fGzQ_y4Sj-mZAUYsElAeEX9lJ5xjJwTaU2aXKXnWgpnjiExF-6GiiqecC74mSi_0tZwJ2OvGGxBzmNEdBOXJ2FyynhmHpGWl5kWXjD37lv.jpg?v=1654593459"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "Default Title",
+              "sku": "LP",
+              "id": "gid://shopify/ProductVariant/43008953385211",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Title",
+                  "value": "Default Title"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "0.0"
+          },
+          "maxVariantPrice": {
+            "amount": "0.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9850398081275",
+            "name": "Title",
+            "values": ["Default Title"]
+          }
+        ],
+        "createdAt": "2022-05-11T17:19:06Z"
+      },
+      {
+        "id": "gid://shopify/Product/7694506426619",
+        "handle": "trafik-tealight-holder",
+        "title": "TRAFIK Tealight Holder",
+        "description": "",
+        "descriptionHtml": "<meta charset=\"utf-8\">\n<p class=\"\" data-pm-slice=\"1 1 []\" data-mce-fragment=\"1\"><br></p>",
+        "vendor": "Lucy Holdberg",
+        "productType": "",
+        "tags": [],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/AAWUweUuuDHmoD_OM_-TeWfUV7bBgPsN7Wj9ZsUlJHeuMO6I57PbwQbdCc6uMRzs049NBp8srPzltOwpp-EGM1p102xPgEhNCDZ0-2jnYAmDY8qxmAoPhOMtoXO3oHDZWMH-dqPuNCwpPbb4xMQj9AYs4hVNXISTBAiZ0O94p9a4ltizDMn1K5m.jpg?v=1652289733"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "Blue",
+              "sku": "TTH_BLUE",
+              "id": "gid://shopify/ProductVariant/43008959480059",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Blue"
+                }
+              ]
+            },
+            {
+              "title": "Green",
+              "sku": "TTH_GREEN",
+              "id": "gid://shopify/ProductVariant/43008959512827",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Green"
+                }
+              ]
+            },
+            {
+              "title": "Yellow",
+              "sku": "TTH_YELLOW",
+              "id": "gid://shopify/ProductVariant/43008959578363",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Yellow"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "0.0"
+          },
+          "maxVariantPrice": {
+            "amount": "0.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9850405617915",
+            "name": "Color",
+            "values": ["Blue", "Green", "Yellow"]
+          }
+        ],
+        "createdAt": "2022-05-11T17:22:11Z"
+      },
+      {
+        "id": "gid://shopify/Product/7696120021243",
+        "handle": "bitz-print",
+        "title": "BITZ Giclee Print",
+        "description": "",
+        "descriptionHtml": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n<p class=\"\" data-pm-slice=\"1 1 []\" data-mce-fragment=\"1\"><br></p>",
+        "vendor": "Julia Xu",
+        "productType": "Posters, Prints, & Visual Artwork",
+        "tags": ["staff-pick"],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/BITZPrint.jpg?v=1655212800"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "A2",
+              "sku": "BGP_A2",
+              "id": "gid://shopify/ProductVariant/43068600779003",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Poster size",
+                  "value": "A2"
+                }
+              ]
+            },
+            {
+              "title": "A3",
+              "sku": "BGP_A3",
+              "id": "gid://shopify/ProductVariant/43068600746235",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Poster size",
+                  "value": "A3"
+                }
+              ]
+            },
+            {
+              "title": "A4",
+              "sku": "BGP_A4",
+              "id": "gid://shopify/ProductVariant/43068600713467",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Poster size",
+                  "value": "A4"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "0.0"
+          },
+          "maxVariantPrice": {
+            "amount": "0.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9853290873083",
+            "name": "Poster size",
+            "values": ["A2", "A3", "A4"]
+          }
+        ],
+        "createdAt": "2022-05-12T16:30:48Z"
+      },
+      {
+        "id": "gid://shopify/Product/7696133062907",
+        "handle": "soap-dish",
+        "title": "AUTOGRAF Soap Dish",
+        "description": "",
+        "descriptionHtml": "<meta charset=\"utf-8\">\n<p data-pm-slice=\"0 0 []\" class=\"\"> </p>",
+        "vendor": "Lucy Holdberg",
+        "productType": "",
+        "tags": ["hello-world", "hello-world-2", "hello-world-3"],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/Green_1.jpg?v=1654685571"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "Blue",
+              "sku": "AGSD_BLUE",
+              "id": "gid://shopify/ProductVariant/43068621422843",
+              "unitPrice": null,
+              "compareAtPrice": {
+                "amount": "35.0"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Blue"
+                }
+              ]
+            },
+            {
+              "title": "Ecru",
+              "sku": "AGSD_ECRU",
+              "id": "gid://shopify/ProductVariant/43068621455611",
+              "unitPrice": null,
+              "compareAtPrice": {
+                "amount": "35.0"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Ecru"
+                }
+              ]
+            },
+            {
+              "title": "Pink",
+              "sku": "AGSD_PINK",
+              "id": "gid://shopify/ProductVariant/43068621488379",
+              "unitPrice": null,
+              "compareAtPrice": {
+                "amount": "35.0"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Pink"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "35.0"
+          },
+          "maxVariantPrice": {
+            "amount": "35.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9853312205051",
+            "name": "Color",
+            "values": ["Blue", "Ecru", "Pink"]
+          }
+        ],
+        "createdAt": "2022-05-12T16:39:51Z"
+      },
+      {
+        "id": "gid://shopify/Product/7713377255675",
+        "handle": "wendi-giclee-print-1",
+        "title": "WENDI Giclee Print",
+        "description": "",
+        "descriptionHtml": "<meta charset=\"utf-8\">\n<p class=\"\" data-pm-slice=\"1 1 []\" data-mce-fragment=\"1\"><br></p>",
+        "vendor": "Julia Xu",
+        "productType": "Posters, Prints, & Visual Artwork",
+        "tags": [],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/AAWUweW-qHgHDyommV7cREnHa9jKabZCQO09L-a8NESNAZn0OcHBw-6Vc4C7jz80QU8iAzekVOccBmksiCYHZP3cmc82XuCZZh335WQefFY2MqlKYLi8PNzKEI7sDKGCCFToyN5jXe5BqCI3Gf8pPBDW-wO7JF88WsSExYVIdXLdPOVJ07iO-8W.jpg?v=1653641680"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "A2",
+              "sku": "WGP_A2",
+              "id": "gid://shopify/ProductVariant/43068639412475",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Poster size",
+                  "value": "A2"
+                }
+              ]
+            },
+            {
+              "title": "A3",
+              "sku": "WGP_A3",
+              "id": "gid://shopify/ProductVariant/43068639379707",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Poster size",
+                  "value": "A3"
+                }
+              ]
+            },
+            {
+              "title": "A4",
+              "sku": "WGP_A4",
+              "id": "gid://shopify/ProductVariant/43068639346939",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Poster size",
+                  "value": "A4"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "0.0"
+          },
+          "maxVariantPrice": {
+            "amount": "0.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9886413422843",
+            "name": "Poster size",
+            "values": ["A2", "A3", "A4"]
+          }
+        ],
+        "createdAt": "2022-05-27T08:54:38Z"
+      },
+      {
+        "id": "gid://shopify/Product/7713379090683",
+        "handle": "bizu-trinket-tray",
+        "title": "BIZU Trinket Tray",
+        "description": "",
+        "descriptionHtml": "<meta charset=\"utf-8\">\n<p class=\"\" data-pm-slice=\"0 0 []\" data-mce-fragment=\"1\"> </p>",
+        "vendor": "Harris O'Sullivan",
+        "productType": "",
+        "tags": [],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/Semi_circle.jpg?v=1653939992"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "Blue",
+              "sku": "BTT_BLUE",
+              "id": "gid://shopify/ProductVariant/43068657565947",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Blue"
+                }
+              ]
+            },
+            {
+              "title": "Pink",
+              "sku": "BTT_PINK",
+              "id": "gid://shopify/ProductVariant/43068657598715",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Pink"
+                }
+              ]
+            },
+            {
+              "title": "White",
+              "sku": "BTT_WHITE",
+              "id": "gid://shopify/ProductVariant/43068657697019",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "White"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "0.0"
+          },
+          "maxVariantPrice": {
+            "amount": "0.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9886418895099",
+            "name": "Color",
+            "values": ["Blue", "Pink", "White"]
+          }
+        ],
+        "createdAt": "2022-05-27T08:59:39Z"
+      },
+      {
+        "id": "gid://shopify/Product/7726214316283",
+        "handle": "yezik-tray",
+        "title": "YEZIK Tray",
+        "description": "",
+        "descriptionHtml": "",
+        "vendor": "Julia Xu",
+        "productType": "",
+        "tags": [],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/YEZIK_Yellow.jpg?v=1654593093"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "Orange",
+              "sku": "YT_ORANGE",
+              "id": "gid://shopify/ProductVariant/43109724389627",
+              "unitPrice": null,
+              "compareAtPrice": {
+                "amount": "50.0"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Orange"
+                }
+              ]
+            },
+            {
+              "title": "Yellow",
+              "sku": "YT_YELLOW",
+              "id": "gid://shopify/ProductVariant/43109724422395",
+              "unitPrice": null,
+              "compareAtPrice": {
+                "amount": "50.0"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Yellow"
+                }
+              ]
+            },
+            {
+              "title": "Green",
+              "sku": "YT_GREEN",
+              "id": "gid://shopify/ProductVariant/43109724520699",
+              "unitPrice": null,
+              "compareAtPrice": {
+                "amount": "50.0"
+              },
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Green"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "50.0"
+          },
+          "maxVariantPrice": {
+            "amount": "50.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9910256730363",
+            "name": "Color",
+            "values": ["Orange", "Yellow", "Green"]
+          }
+        ],
+        "createdAt": "2022-06-07T09:09:18Z"
+      },
+      {
+        "id": "gid://shopify/Product/7726221459707",
+        "handle": "lekki-candle-holder",
+        "title": "LEKKI Candle Holder",
+        "description": "",
+        "descriptionHtml": "",
+        "vendor": "Harris O'Sullivan",
+        "productType": "",
+        "tags": [],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/Pink_LEKKI.jpg?v=1654593593"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "Blue",
+              "sku": "LCH_BLUE",
+              "id": "gid://shopify/ProductVariant/43109747917051",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Blue"
+                }
+              ]
+            },
+            {
+              "title": "Pink",
+              "sku": "LCH_PINK",
+              "id": "gid://shopify/ProductVariant/43109747982587",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Pink"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "0.0"
+          },
+          "maxVariantPrice": {
+            "amount": "0.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9910264365307",
+            "name": "Color",
+            "values": ["Blue", "Pink"]
+          }
+        ],
+        "createdAt": "2022-06-07T09:19:36Z"
+      },
+      {
+        "id": "gid://shopify/Product/7726223556859",
+        "handle": "zapi-incense-burner",
+        "title": "ZAPI Incense Burner",
+        "description": "",
+        "descriptionHtml": "",
+        "vendor": "Lucy Holdberg",
+        "productType": "",
+        "tags": [],
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0639/3285/8619/products/Ecru.jpg?v=1654594133"
+        },
+        "variants": {
+          "nodes": [
+            {
+              "title": "Blue",
+              "sku": "ZAPI_BLUE",
+              "id": "gid://shopify/ProductVariant/43109754536187",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Blue"
+                }
+              ]
+            },
+            {
+              "title": "Ecru",
+              "sku": "ZAPI_ECRU",
+              "id": "gid://shopify/ProductVariant/43109754601723",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Ecru"
+                }
+              ]
+            },
+            {
+              "title": "Black",
+              "sku": "ZAPI_BLACK",
+              "id": "gid://shopify/ProductVariant/43109765021947",
+              "unitPrice": null,
+              "compareAtPrice": null,
+              "selectedOptions": [
+                {
+                  "name": "Color",
+                  "value": "Black"
+                }
+              ]
+            }
+          ]
+        },
+        "compareAtPriceRange": {
+          "minVariantPrice": {
+            "amount": "0.0"
+          },
+          "maxVariantPrice": {
+            "amount": "0.0"
+          }
+        },
+        "options": [
+          {
+            "id": "gid://shopify/ProductOption/9910266495227",
+            "name": "Color",
+            "values": ["Blue", "Ecru", "Black"]
+          }
+        ],
+        "createdAt": "2022-06-07T09:21:54Z"
+      }
+    ],
+    "pageInfo": {
+      "endCursor": "eyJsYXN0X2lkIjo3NzI2MjIzNTU2ODU5LCJsYXN0X3ZhbHVlIjo3NzI2MjIzNTU2ODU5fQ==",
+      "hasNextPage": true
+    }
+  },
+  "collections": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Collection/395301290235",
+        "handle": "everything",
+        "title": "All Products",
+        "description": "Example HTML description.",
+        "descriptionHtml": "Example HTML description."
+      },
+      {
+        "id": "gid://shopify/Collection/395301519611",
+        "handle": "bathroom",
+        "title": "Bathroom",
+        "description": "",
+        "descriptionHtml": ""
+      },
+      {
+        "id": "gid://shopify/Collection/395607081211",
+        "handle": "living",
+        "title": "Living",
+        "description": "",
+        "descriptionHtml": ""
+      },
+      {
+        "id": "gid://shopify/Collection/395607245051",
+        "handle": "best-sellers-in-stock",
+        "title": "New Arrivals",
+        "description": "",
+        "descriptionHtml": ""
+      },
+      {
+        "id": "gid://shopify/Collection/396461834491",
+        "handle": "prints",
+        "title": "Prints",
+        "description": "",
+        "descriptionHtml": ""
+      }
+    ],
+    "pageInfo": {
+      "endCursor": "eyJsYXN0X2lkIjozOTY0NjE4MzQ0OTEsImxhc3RfdmFsdWUiOjM5NjQ2MTgzNDQ5MX0=",
+      "hasNextPage": false
+    }
+  }
+}

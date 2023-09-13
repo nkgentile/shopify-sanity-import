@@ -1,0 +1,29 @@
+{
+  "name": "shopify-sanity-import",
+  "private": true,
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --no-error-on-unmatched-pattern --ext .js --ignore-path .gitignore --max-warnings 0 .",
+    "format": "prettier --write . --ignore-path .gitignore",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^6.4.11",
+    "@shopify/shopify-api": "^7.6.0",
+    "dotenv": "^16.3.1",
+    "graphql-request": "^6.1.0",
+    "graphql-tag": "^2.12.6",
+    "p-queue": "^7.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.0.3"
+  }
+}
