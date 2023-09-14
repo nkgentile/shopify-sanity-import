@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
+    "start": "node src",
     "lint": "eslint --no-error-on-unmatched-pattern --ext .js --ignore-path .gitignore --max-warnings 0 .",
     "format": "prettier --write . --ignore-path .gitignore",
     "test": "echo \"Error: no test specified\" && exit 1"

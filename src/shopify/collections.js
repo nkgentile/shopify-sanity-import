@@ -2,8 +2,8 @@ import graphql from "graphql-tag";
 
 import {collectionFieldsFragment} from "./collectionFields.js";
 
-export const productsQuery = graphql`
-  query getProducts($first: Int) {
+export const collectionsQuery = graphql`
+  query getCollections($first: Int) {
     collections(first: $first) {
       nodes {
         ...collectionFields

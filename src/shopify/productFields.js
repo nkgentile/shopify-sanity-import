@@ -1,5 +1,7 @@
 import graphql from "graphql-tag";
 
+import {productVariantFieldsFragment} from "./productVariantFields.js";
+
 const SHOPIFY_VARIANT_LIMIT = 100;
 
 export const productFieldsFragment = graphql`
@@ -17,22 +19,7 @@ export const productFieldsFragment = graphql`
     }
     variants(first: ${SHOPIFY_VARIANT_LIMIT}) {
       nodes {
-        title
-        sku
-        id
-        product {
-          id
-        }
-        unitPrice {
-          amount
-        }
-        compareAtPrice {
-          amount
-        }
-        selectedOptions {
-          name
-          value
-        }
+        ...productVariantFields
       }
     }
     compareAtPriceRange {
@@ -52,4 +39,6 @@ export const productFieldsFragment = graphql`
     createdAt
     # updated_at,
   }
+
+  ${productVariantFieldsFragment}
 `;

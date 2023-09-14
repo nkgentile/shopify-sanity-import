@@ -8,5 +8,8 @@ export const collectionFieldsFragment = graphql`
     description
     descriptionHtml
     title
+    image {
+      url
+    }
   }
 `;

@@ -91,14 +91,14 @@ export function transformProductVariantDocument(variant) {
     store: {
       id,
       gid: `gid://shopify/ProductVariant/${id}`,
-      compareAtPrice: Number(variant.compareAtPrice),
+      compareAtPrice: Number(variant.compareAtPrice?.amount),
       createdAt: variant.createdAt,
       isDeleted: false,
       option1: get(variant, "selectedOptions[0].value", ""),
       option2: get(variant, "selectedOptions[1].value", ""),
       option3: get(variant, "selectedOptions[2].value", ""),
-      previewImageUrl: variant.image?.src,
-      price: parseFloat(variant.price),
+      previewImageUrl: variant.image?.url,
+      price: parseFloat(variant.price.amount),
       productId,
       productGid: `gid://shopify/Product/${productId}`,
       sku: variant.sku,
@@ -125,7 +125,7 @@ export function transformCollection(collection) {
       id,
       gid: `gid://shopify/Collection/${id}`,
       isDeleted: false,
-      imageUrl: collection.image?.src,
+      imageUrl: collection.image?.url,
       descriptionHtml: collection.descriptionHtml,
       rules: collection.ruleSet?.rules.map((rule) => ({
         _key: uuidv5(
@@ -144,7 +144,7 @@ export function transformCollection(collection) {
       },
       sortOrder,
       title: collection.title,
-      createdAt: new Date().toISOString(),
+      createdAt: collection.createdAt,
     },
   };
 }

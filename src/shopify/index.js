@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 
 import {client} from "./client.js";
 export {client as shopify};
+export {collectionsQuery} from "./collections.js";
 export {productsQuery} from "./products.js";
 
 /**

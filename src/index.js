@@ -6,15 +6,17 @@ import {pipeline} from "node:stream/promises";
 import PQueue from "p-queue";
 
 import {
+  createCollectionDocument,
   createProductDocument,
   createProductVariantDocument,
   createProductVariantReference,
   hasDraft,
   sanity,
+  transformCollection,
   transformProductDocument,
   transformProductVariantDocument,
 } from "./sanity/index.js";
-import {createConnectionPaginator, productsQuery} from "./shopify/index.js";
+import {collectionsQuery, createConnectionPaginator, productsQuery} from "./shopify/index.js";
 
 const sanityQueue = new PQueue({
   /** @see https://www.sanity.io/docs/technical-limits#50838b4c19db */
@@ -37,11 +39,11 @@ async function* catchErrors(source) {
   }
 }
 
-console.log('Importing...')
+let productCount = 0;
+let variantCount = 0;
+let collectionCount = 0;
 
-let productCount = 0
-let variantCount = 0
-let collectionCount = 0
+console.log("Importing products and variants...");
 
 await pipeline(
   createConnectionPaginator({
@@ -97,5 +99,46 @@ await pipeline(
   {signal: abortController.signal},
 );
 
-console.log("Finished!");
-console.log(`Successfully imported ${productCount} product${productCount === 1 ? '' : 's'}, ${variantCount} variant${variantCount === 1 ? '' : 's'}, and ${collectionCount} collection${collectionCount === 1 ? '' : 's'}`)
+console.log("Importing collections...");
+
+await pipeline(
+  createConnectionPaginator({
+    label: "Fetching collections page",
+    query: collectionsQuery,
+    getConnection(response) {
+      return response.collections;
+    },
+  }),
+  catchErrors,
+  async function (source, {signal}) {
+    for await (const collections of source) {
+      for (const collection of collections) {
+        await sanityQueue.add(
+          async () => {
+            const transaction = sanity.transaction();
+
+            const document = transformCollection(collection);
+            const draftExists = await hasDraft(sanity, document);
+            createCollectionDocument(sanity, transaction, document, draftExists);
+
+            await transaction.commit({visibility: "deferred", signal});
+
+            collectionCount++;
+          },
+          {signal},
+        );
+      }
+    }
+
+    await sanityQueue.onIdle();
+  },
+  {signal: abortController.signal},
+);
+
+console.log(
+  `Successfully imported ${productCount} product${
+    productCount === 1 ? "" : "s"
+  }, ${variantCount} variant${variantCount === 1 ? "" : "s"}, and ${collectionCount} collection${
+    collectionCount === 1 ? "" : "s"
+  }`,
+);
