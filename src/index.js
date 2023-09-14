@@ -118,7 +118,7 @@ await pipeline(
             const transaction = sanity.transaction();
 
             const document = transformCollection(collection);
-            const draftExists = await hasDraft(sanity, document);
+            const draftExists = await hasDraft(sanity, document, signal);
             createCollectionDocument(sanity, transaction, document, draftExists);
 
             await transaction.commit({visibility: "deferred", signal});
