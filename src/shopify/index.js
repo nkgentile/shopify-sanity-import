@@ -9,7 +9,7 @@ export {productsQuery} from "./products.js";
  * @returns {AsyncGenerator}
  */
 export function createConnectionPaginator(args = {pageSize: 5}) {
-  const {pageSize = 5, label, query, getConnection} = args;
+  const {pageSize = 100, label, query, getConnection} = args;
 
   return async function* ({signal}) {
     let cursor = null;

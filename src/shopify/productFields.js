@@ -20,6 +20,9 @@ export const productFieldsFragment = graphql`
         title
         sku
         id
+        product {
+          id
+        }
         unitPrice {
           amount
         }

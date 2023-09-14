@@ -12,12 +12,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sanity/client": "^6.4.11",
+    "@sanity/client": "^6.4.12",
     "@shopify/shopify-api": "^7.6.0",
     "dotenv": "^16.3.1",
     "graphql-request": "^6.1.0",
     "graphql-tag": "^2.12.6",
-    "p-queue": "^7.4.1"
+    "groq": "^3.16.4",
+    "lodash": "^4.17.21",
+    "p-queue": "^7.4.1",
+    "sanity": "^3.16.4",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "eslint": "^8.49.0",
